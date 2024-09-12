@@ -1,5 +1,4 @@
-import { validarCodigoDeBarrasEAN13 } from "../../src/models/produtoModel";
-
+import { validarCodigoDeBarrasEAN13 } from "../../src/utils/validacoes";
 
 describe('Validação do Código de Barras EAN-13', () => {
   test('Deve retornar true para um código de barras EAN-13 válido', () => {

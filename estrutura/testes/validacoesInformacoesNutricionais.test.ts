@@ -1,4 +1,4 @@
-import { validacaoInformacoesNutricionaisSchema } from "../../src/models/produtoModel";
+import { validacaoInformacoesNutricionaisSchema } from "../../src/utils/validacoes";
 
 describe('Validação de Informações Nutricionais com Yup', () => {
     // Teste 1: Verifica se um objeto completo e válido passa na validação
